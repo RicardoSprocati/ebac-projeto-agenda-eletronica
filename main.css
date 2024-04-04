@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container-pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./imagens/fundo.avif);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    position: relative;
+    filter: contrast(120%);
+    overflow: hidden;
+    
+}
+
+header {
+    background-color: rgb(23, 199, 223);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 16px solid rgb(12, 128, 182) ;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header img {
+    height: 100px;
+    margin-right: 50px;
+}
+
+header button {
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 2px solid black ;
+    background-color: forestgreen;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(12, 128, 182) ;
+    display: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 24px;
+    max-width: 960px;
+    width: 100%;
+    height: 50px;
+}
+
+form input {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+form button {
+    background-color: forestgreen;
+    color: white;
+    padding: 8px;
+    margin-left: 24px;
+}
+
+table {
+    max-width: 960px;
+    width: 100%;
+}
+
+table thead {
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+table td {
+    padding: 16px;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+tbody th {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+tbody button  {
+    max-height: 25px;
+    max-width: 25px;
+}
+
+tbody img {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 199, 223);
+}
+
+.tarefa-concluida {
+    text-decoration: 5px line-through red;
+    
+}

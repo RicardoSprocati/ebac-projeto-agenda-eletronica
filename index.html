@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <title>Agenda de Tarefas</title>
+</head>
+<body>
+    <header>
+        <img src="./imagens/imagem-header.jpg" alt="agenda ilustrativa">
+        <h1>Lista de Tarefas</h1>
+        <button type="submit">Agendar</button>
+    </header>
+    <div class="container-pai">
+        <div class="container">
+            <form id="formulario">
+                <input type="text" id="tarefa" placeholder="Insira a tarefa " required>
+                <button type="submit" id="button-agendar">Adicionar +</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tarefas:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tarefa-concluida"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p>
+                &copy; Agenda eletronica - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
